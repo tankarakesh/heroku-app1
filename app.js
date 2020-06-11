@@ -14,7 +14,7 @@ app.get('/', function(request, response) {
     console.log('App is running, server is listening on port ', app.get('port'));
 });
 
-app.get('',(request, response) =>
+app.get('/',(request, response) =>
 {
 response.send('Welcome To Get Requests!!!');
 })
